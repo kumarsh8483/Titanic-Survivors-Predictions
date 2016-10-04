@@ -72,3 +72,11 @@ for i in range(n_clusters_):
     survival_rates[i] = survival_rate
     
 print (survival_rates)
+
+
+#get the list of passengers under each cluster being created for their survival rates.
+
+print(orig_df[ (orig_df['cluster_group']==1) ])
+print(orig_df[ (orig_df['cluster_group']==2) ])
+print(orig_df[ (orig_df['cluster_group']==3) ])
+print(orig_df[ (orig_df['cluster_group']==4) ])
